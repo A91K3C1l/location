@@ -1,4 +1,4 @@
-import urllib import request
+from urllib import request
 
 import json
 
@@ -24,4 +24,4 @@ lat = print ("[+] Lat \t: "+str(data["lat"]))
 lon = print ("[+] Lon \t: "+str(data["lon"]))
 print ("[+] RegionName \t: "+data["regionName"])
 print ("[+] Timezone \t: "+data["timezone"])
-print ("[+] Link Googlemap Anda : https://maps.google.com/?q=",str(data["lat"]),str(dat>
+print ("[+] Link Googlemap Anda : https://maps.google.com/?q=",str(data["lat"]),str(data["lon"]))
