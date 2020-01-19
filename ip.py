@@ -7,8 +7,8 @@ from os import *
 system("clear")
 system("figlet IP Location | lolcat")
 print ("==============================")
-print ("| Author : A91K3C1l          |")
-print ("| Team   : AnonCyberTeam     |")
+print ("| Author : A91K3C1l           |")
+print ("| Team   : github.io          |")
 print ("==============================")
 ip = input('Masukkan Ip Anda : ')
 api = 'http://ip-api.com/json/'+ip
